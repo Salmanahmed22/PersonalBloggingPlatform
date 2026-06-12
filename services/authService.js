@@ -34,7 +34,7 @@ const loginUser = async ({ email, password }) => {
   if (!isPasswordValid) {
     throw new InvalidCredentialsError();
   }
-  //token creat
+  //token creation
   const token = jwt.sign(
     {
       id: user._id.toString(),
