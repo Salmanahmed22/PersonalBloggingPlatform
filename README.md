@@ -56,7 +56,8 @@ If you change the `PORT` value in your `.env` file, replace `3000` with that por
 
 ## API Endpoints
 
-Base URL: `http://localhost:3000`
+Local Base URL: `http://localhost:3000`
+Deployed Base URL: `https://personalbloggingplatform-production.up.railway.app`
 
 ### Auth
 
