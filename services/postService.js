@@ -1,4 +1,4 @@
-const postRepo = require("../repos/PostRepo");
+const postRepo = require("../repos/postRepo");
 
 const getPosts = async () => {
   return await postRepo.getPosts();
