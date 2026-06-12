@@ -44,6 +44,16 @@ To run in debug mode:
 node --inspect index.js
 ```
 
+## Open Swagger
+
+After starting the server, open Swagger UI in your browser at:
+
+```text
+http://localhost:3000/api-docs
+```
+
+If you change the `PORT` value in your `.env` file, replace `3000` with that port number.
+
 ## API Endpoints
 
 Base URL: `http://localhost:3000`
